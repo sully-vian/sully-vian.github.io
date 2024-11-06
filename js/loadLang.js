@@ -1,4 +1,4 @@
-document.addEventListener("navContentLoaded", () => {
+document.addEventListener("componentsLoaded", () => {
     // load last selected language or default to english
     const lang = localStorage.getItem("selectedLang") || "en";
     loadLang(lang);
