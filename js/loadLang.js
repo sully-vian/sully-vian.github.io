@@ -25,4 +25,5 @@ function loadLang(lang) {
             }
         })
         .catch(err => console.error(`Error loading language file for language \"${lang}\"`, err));
-}
+        // console.log(`Language loaded: ${lang}`);
+    }

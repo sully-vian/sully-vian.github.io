@@ -1,0 +1,18 @@
+* {
+    /* outline: red solid 1px; */
+    transition: color 0.3s, background-color 0.3s;
+}
+
+:root {
+    --background-color: whitesmoke;
+    --nav-background-color: lightblue;
+    --color: black;
+    --footer-border-color: rgb(200, 200, 200);
+}
+
+.dark-theme {
+    --background-color: #1a1a1a;
+    --nav-background-color: darkslateblue;
+    --color: white;
+    --footer-border-color: rgb(100, 100, 100);
+}

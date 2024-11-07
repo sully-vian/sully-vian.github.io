@@ -1,3 +1,5 @@
+@import url('./variables.css');
+
 nav {
     position: fixed;
     top:0;
@@ -7,8 +9,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: darkslateblue;
-    color: #fff;
+    background-color: var(--nav-background-color);
 }
 
 nav>ul {
@@ -22,8 +23,8 @@ nav>ul>li {
 }
 
 nav>ul>li>a {
+    color: var(--color);
     text-decoration: none;
-    color: white;
     font-size: 2rem;
 }
 
@@ -68,10 +69,18 @@ nav label span:hover {
     opacity: 0.5;
 }
 
-nav label input:checked+span {
+nav label #lang-switch:checked+span {
     background-image: url(/assets/flag-en.svg);
 }
 
-nav label input:not(:checked)+span {
+nav label #lang-switch:not(:checked)+span {
     background-image: url(/assets/flag-fr.svg);
+}
+
+nav label #theme-switch:checked+span {
+    background-image: url(/assets/light1.svg);
+}
+
+nav label #theme-switch:not(:checked)+span {
+    background-image: url(/assets/dark1.svg);
 }
