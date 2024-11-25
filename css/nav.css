@@ -10,7 +10,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--nav-background-color);
+    background-color: var(--nav-bg-color);
     box-shadow: 0 3px 10px black;
 }
 
@@ -41,6 +41,7 @@ nav #switches {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-right: 20px;
 }
 
 nav label {
@@ -69,6 +70,14 @@ nav label span {
 
 nav label span:hover {
     opacity: 0.5;
+}
+
+#theme-label {
+    margin-right: 10px;
+}
+
+#lang-label {
+    margin-left: 10px;
 }
 
 #lang-switch:checked+span {

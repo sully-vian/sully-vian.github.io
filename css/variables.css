@@ -4,16 +4,16 @@
 }
 
 :root {
-    --background-color: whitesmoke;
-    --nav-background-color: lightblue;
+    --bg-color: whitesmoke;
+    --nav-bg-color: lightblue;
     --color: black;
     --footer-border-color: rgb(200, 200, 200);
     --border-color: black
 }
 
 .dark-theme {
-    --background-color: #1a1a1a;
-    --nav-background-color: darkslateblue;
+    --bg-color: #1a1a1a;
+    --nav-bg-color: darkslateblue;
     --color: white;
     --footer-border-color: rgb(100, 100, 100);
     --border-color: white /* TODO: find right color */

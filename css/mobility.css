@@ -12,7 +12,7 @@ section>article {
     border-radius: 10px;
     border: 2px solid var(--border-color);
     padding: 10px;
-    background-color: var(--nav-background-color);
+    background-color: var(--nav-bg-color);
 }
 
 section>article>h2 {
