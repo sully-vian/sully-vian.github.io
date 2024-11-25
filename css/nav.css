@@ -2,14 +2,16 @@
 
 nav {
     position: fixed;
-    top:0;
+    top: 0;
     width: 100%;
     height: 10vh;
+    z-index: 100;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: var(--nav-background-color);
+    box-shadow: 0 3px 10px black;
 }
 
 nav>ul {
@@ -19,7 +21,7 @@ nav>ul {
 }
 
 nav>ul>li {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav>ul>li>a {
@@ -35,7 +37,7 @@ nav>ul>li>a:hover {
 nav #switches {
     position: relative;
     height: 60%;
-    width: 10%;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -69,18 +71,18 @@ nav label span:hover {
     opacity: 0.5;
 }
 
-nav label #lang-switch:checked+span {
+#lang-switch:checked+span {
     background-image: url(/assets/flag-en.svg);
 }
 
-nav label #lang-switch:not(:checked)+span {
+#lang-switch:not(:checked)+span {
     background-image: url(/assets/flag-fr.svg);
 }
 
-nav label #theme-switch:checked+span {
+#theme-switch:checked+span {
     background-image: url(/assets/light1.svg);
 }
 
-nav label #theme-switch:not(:checked)+span {
+#theme-switch:not(:checked)+span {
     background-image: url(/assets/dark1.svg);
 }

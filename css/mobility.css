@@ -1,0 +1,20 @@
+@import url("./variables.css");
+
+section {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section>article {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-radius: 10px;
+    border: 2px solid var(--border-color);
+    padding: 10px;
+    background-color: var(--nav-background-color);
+}
+
+section>article>h2 {
+    text-align: center;
+}

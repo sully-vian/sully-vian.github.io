@@ -2,7 +2,20 @@
     "title-home": "Accueil",
     "title-professional": "Professionel",
     "title-projects": "Projets",
+    "title-mobility": "Mobilité",
+    "title-civic-engagement": "Engagement Civique",
+    "title-contact": "Contact",
+
     "nav-home": "Accueil",
     "nav-professional": "Professionel",
-    "nav-projects": "Projets"
+    "nav-projects": "Projets",
+    "nav-mobility": "Mobilité",
+    "nav-civic-engagement": "Engagement Civique",
+    "nav-contact": "Contact",
+
+    "mobility-past-title": "Expériences Passées",
+    "mobility-future-title": "Projets Futurs",
+    "mobility-past-1": "Séjour linguistique en famille irlandaise (2 semaines, 2020)",
+    "mobility-past-2": "Expatriation familiale à Phoenix, Arizona (2005-2007)",
+    "mobility-future-1": "Semestre ERASMUS en Allemagne (automne-hiver 2024)"
 }

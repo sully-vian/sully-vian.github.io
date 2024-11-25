@@ -9,9 +9,18 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    min-height: 200vh;
+    align-items: center;
+    min-height: 100vh;
     background-color: var(--background-color);
     color: var(--color);
     font-family: 'Roboto', sans-serif;
     padding-top: 10vh;
+}
+
+section {
+    position: relative;
+    height: auto;
+    width: 70%;
+    display: flex;
+    margin-top: 5%;
 }
