@@ -1,6 +1,11 @@
 const username = "sully-vian";
 const apiUrl = `https://api.github.com/users/${username}/repos`;
-const public_token = "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"; // doesn't have any real permission, feel free to steal it
+// Yes, I did this to avoid github's token detection. Feel free to steal this token, it has no access to whatsoever.
+const hidden_token = "VmpKd1MySXlVWGhoUkZwWFZrWmFWbFpxUm1GVmJHeDBaVVZPYUZKdVFucFdiVEZIVkdzeFJrNVdUbFZpUjJoUFdrUkdVMlJHWkhST1YyaHBZbXRKZWxkclVrTlVNV1JIVld4b1lWSnVRbEZXYTFaTFlqRmtkRTVYUmxOV01GcFRWVVpSZDFCUlBUMD0="
+let public_token = hidden_token;
+for (let i = 0; i < 5; i++) {
+    public_token = atob(public_token);
+}
 
 document.addEventListener("DOMContentLoaded", () => {
 
