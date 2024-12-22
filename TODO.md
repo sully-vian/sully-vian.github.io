@@ -29,8 +29,7 @@
 
 ## Page Contact
 
-- [ ] LinkedIn
-- [ ] GitHub
-- [ ] Mail
-- [ ] Téléphone
-- [ ] Adresse grossière
+- [X] LinkedIn
+- [X] GitHub
+- [X] Mails (N7/perso)
+- [X] Adresse grossière
