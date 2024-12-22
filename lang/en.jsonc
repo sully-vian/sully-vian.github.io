@@ -13,9 +13,11 @@
     "nav-civic-engagement": "Civic Engagement",
     "nav-contact": "Contact",
 
+    "home-about": "Hi! I am Vianney Hervy, a Master's student in Computer Science (M1) at ENSEEIHT engineering school in Toulouse, France.\n\nWhat I love most about CS is that every project provides an opportunity to explore new technologies, adopt different ways of thinking, and continually improve my skills.\n\nI believe the best way to learn is by sharing knowledge and collaborating on projects.\n\nCurrently, my main interests lie in formal methods and software engineering.",
+
     "mobility-past-title": "Past Experiences",
     "mobility-future-title": "Future Projects",
     "mobility-past-1": "Student exchange in an Irish Family (2 weeks, 2020)",
     "mobility-past-2": "Family expatriation in Phoenix, Arizona (2005-2007)",
-    "mobility-future-1": "ERASMUS semester in Germany (fall-winter 2024)"
+    "mobility-future-1": "ERASMUS semester in Germany, UK or Austria (fall-winter 2024)"
 }
