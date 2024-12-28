@@ -1,26 +1,36 @@
 {
+    // titles
     "title-home": "Home",
     "title-professional": "Professional",
     "title-projects": "Projects",
     "title-mobility": "Mobility",
-    "title-civic-engagement": "Civic Engagement",
+    "title-civic": "Civic Engagement",
     "title-contact": "Contact",
-
+    // Navigation
     "nav-home": "Home",
     "nav-professional": "Professional",
     "nav-projects": "Projects",
     "nav-mobility": "Mobility",
-    "nav-civic-engagement": "Civic Engagement",
+    "nav-civic": "Civic Engagement",
     "nav-contact": "Contact",
-
+    // Home
     "home-about": "Hi! I am Vianney Hervy, a Master's student in Computer Science (M1) at ENSEEIHT engineering school in Toulouse, France.\n\nWhat I love most about CS is that every project provides an opportunity to explore new technologies, adopt different ways of thinking, and continually improve my skills.\n\nI believe the best way to learn is by sharing knowledge and collaborating on projects.\n\nCurrently, my main interests lie in formal methods and software engineering.",
-
+    // Mobility
     "mobility-past-title": "Past Experiences",
     "mobility-future-title": "Future Projects",
     "mobility-past-1": "Student exchange in an Irish Family (2 weeks, 2020)",
     "mobility-past-2": "Family expatriation in Phoenix, Arizona (2005-2007)",
     "mobility-future-1": "ERASMUS semester in Germany, UK or Austria (fall-winter 2024)",
-
+    // Civic Engagement
+    "civic-scoutism-title": "Scoutism",
+    "civic-scoutism-text": "I participated in over 10 years of scouting with the Scouts of Europe movement and later with the SUF.\n\nI started at the age of 8 and continued until I was 21 (2024). At this time, I was responsible for about thirty teenagers aged 12 to 17, organizing monthly weekend camping trips and three-week summer camps.\n\nAs part of this role, I completed a week-long training program (CEP) to learn about scout pedagogy and the education of teens.",
+    "civic-lmes-title": "\"Les Maths en Scène\"",
+    "civic-lmes-text": "Les Maths en Scène is an organization that aims to enhance the teaching of mathematics and computer science through innovative pedagogical approaches.\n\nI had the opportunity to get involved in the 2024 \"Le Printemps des Mathématiques\" festival. In 2025, I would like to run a workshop and host a booth at the festival.\n\nIt was also within this organization that I completed my first-year internship at N7.",
+    "civic-tutoring-title": "Tutoring courses",
+    "civic-tutoring-text": "During my second year of preparatory classes (2022-2023), I volunteered to tutor mathematics and physics at the Claude Bernard High School in Paris.\n\nI taught a 2-hour class each week to a group of 3 to 5 students.",
+    "civic-lourdes-title": "National Pilgrimage of Lourdes",
+    "civic-lourdes-text": "The Lourdes National Pilgrimage is an annual event that takes place around August 15th, bringing together thousands of pilgrims who are ill, disabled, or able-bodied.\n\nDuring the 5 days of the 2024 edition, I assisted with the transportation of pilgrims within the sanctuary and the city.",
+    // Contact
     "contact-personal-title": "Personal",
     "contact-school-mail": "School email",
     "contact-address": "Address",

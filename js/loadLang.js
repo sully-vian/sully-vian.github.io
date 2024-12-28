@@ -15,7 +15,12 @@ document.addEventListener("componentsLoaded", () => {
 
 function loadLang(lang) {
     fetch(`/lang/${lang}.jsonc`)
-        .then(res => res.json())
+        .then(res => res.text())
+        .then(text => JSON.parse(text
+            // remove comments from jsonc
+            .split('\n')
+            .filter(line => !line.trim().startsWith("//"))
+            .join('\n')))
         .then(data => {
             for (const key in data) {
                 const element = document.querySelector(`[data-lang="${key}"]`);
@@ -25,5 +30,4 @@ function loadLang(lang) {
             }
         })
         .catch(err => console.error(`Error loading language file for language \"${lang}\"`, err));
-        // console.log(`Language loaded: ${lang}`);
-    }
+}

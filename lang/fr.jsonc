@@ -1,26 +1,36 @@
 {
+    // titres
     "title-home": "Accueil",
     "title-professional": "Professionel",
     "title-projects": "Projets",
     "title-mobility": "Mobilité",
-    "title-civic-engagement": "Engagement Civique",
+    "title-civic": "Engagement Civique",
     "title-contact": "Contact",
-
+    // Navigation
     "nav-home": "Accueil",
     "nav-professional": "Professionel",
     "nav-projects": "Projets",
     "nav-mobility": "Mobilité",
-    "nav-civic-engagement": "Engagement Civique",
+    "nav-civic": "Engagement Civique",
     "nav-contact": "Contact",
-
+    // Accueil
     "home-about": "Bonjour ! Je m'appelle Vianney Hervy, et je suis étudiant en Master 1 d'Informatique à l'école d'ingénieurs ENSEEIHT à Toulouse, France.\n\nCe que j'aime le plus dans l'informatique, c'est que chaque projet est une chance d'adopter une nouvelle technologie, une nouvelle manière de penser, et d'améliorer mes compétences.\n\nJe suis convaincu que la meilleure façon d'apprendre est de partager ses connaissances et de réaliser des projets collaboratifs.\n\nActuellement, je m'intéresse particulièrement aux méthodes formelles et à l'ingénierie logicielle.",
-
+    // Mobilité
     "mobility-past-title": "Expériences Passées",
     "mobility-future-title": "Projets Futurs",
     "mobility-past-1": "Séjour linguistique en famille irlandaise (2 semaines, 2020)",
     "mobility-past-2": "Expatriation familiale à Phoenix, Arizona (2005-2007)",
     "mobility-future-1": "Semestre ERASMUS en Allemagne, RU ou Autriche (automne-hiver 2024)",
-
+    // Engagement Civique
+    "civic-scoutism-title": "Scoutisme",
+    "civic-scoutism-text": "J'ai fait plus de 10 ans de scoutisme dans les mouvements Scouts d'Europe puis SUF.\n\nJ'ai commencé à 8 ans et me suis arrêté à 21 ans (2024).\nJe m'occupais alors d'une trentaine d'adolescents entre 12 et 17 ans pour des WE sous la tente mensuels et des camps de 3 semaines l'été.\nDans ce cadre, j'ai suivi une semaine de formation (CEP) pour apprendre la pédagogie scoute et l'éducation des adolescents.",
+    "civic-lmes-title": "Les Maths en Scène",
+    "civic-lmes-text": "Les Maths en Scène est une association qui cherche à dynamiser pédagogiquement l'enseignement des mathématiques et de l'informatique.\nJ'ai eu l'occasion de m'impliquer dans le festival Le printemps des Mathématiques 2024. En 2025, j'aimerais animer un atelier et tenir un stand au le festival.\n\nC'est aussi au sein de cette association que j'ai réalisé mon stage de première année à l'N7.",
+    "civic-tutoring-title": "Cours de soutien",
+    "civic-tutoring-text": "Pendant ma seconde année de prépa (2022-2023), j'ai donné des cours bénévoles de soutien en mathématiques et physique dans le lycée parisien Claude Bernard.\nJe donnais un cours de 2h chaque semaine à un groupe de 3 à 5 élèves.",
+    "civic-lourdes-title": "Pèlerinage national de Lourdes",
+    "civic-lourdes-text": "Le pèlerinage national de Lourdes est un pèlerinage annuel qui a lieu à l'occasion du 15 août et qui rassemble des miliers de pèlerins malades, handicapés, et valides.\nPendant les 5 jours de l'édition 2024, j'ai assuré le déplacement de pèlerins dans le sanctuaire et la ville.",
+    // Contact
     "contact-personal-title": "Personnel",
     "contact-school-mail": "Email scolaire",
     "contact-personal-mail": "Email personnel",

@@ -1,5 +1,10 @@
 # TODO pour PPP
 
+## Général
+
+- [ ] Favicon
+- [ ] trier le dossier `assets/`
+
 ## Page Accueil
 
 - [X] texte de présentation
@@ -18,14 +23,17 @@
 
 - [X] vacances
 - [X] expatriation US
-- [X] Échange irlande
+- [X] Échange Irlande
 - [X] S9 Allemagne / Angleterre / Autriche
 
 ## Page Engagement civique, Sport & Hobbies
 
-- [ ] Scoutisme
-- [ ] Pélé national Lourdes
-- [ ] Les Maths En Scène
+- [X] Scoutisme
+- [X] Pélé national Lourdes
+- [X] Les Maths En Scène
+- [X] Cours de maths
+- [ ] Img pour scoutisme
+- [ ] Réorganiser dans un ordre sympa
 
 ## Page Contact
 
