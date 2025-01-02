@@ -81,17 +81,17 @@ nav label span:hover {
 }
 
 #lang-switch:checked+span {
-    background-image: url(/assets/flag-en.svg);
+    background-image: url(/assets/svg/flag-en.svg);
 }
 
 #lang-switch:not(:checked)+span {
-    background-image: url(/assets/flag-fr.svg);
+    background-image: url(/assets/svg/flag-fr.svg);
 }
 
 #theme-switch:checked+span {
-    background-image: url(/assets/light1.svg);
+    background-image: url(/assets/svg/light1.svg);
 }
 
 #theme-switch:not(:checked)+span {
-    background-image: url(/assets/dark1.svg);
+    background-image: url(/assets/svg/dark1.svg);
 }

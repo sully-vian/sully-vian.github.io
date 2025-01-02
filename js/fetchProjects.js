@@ -1,6 +1,7 @@
 const username = "sully-vian";
 const apiUrl = `https://api.github.com/users/${username}/repos`;
-// Yes, I did this to avoid github's token detection. Feel free to steal this token, it has no access to whatsoever.
+// Yes, I did this to avoid github's token detection.
+// Feel free to steal this token, it has no access to whatsoever.
 const hidden_token = "VmpKd1MySXlVWGhoUkZwWFZrWmFWbFpxUm1GVmJHeDBaVVZPYUZKdVFucFdiVEZIVkdzeFJrNVdUbFZpUjJoUFdrUkdVMlJHWkhST1YyaHBZbXRKZWxkclVrTlVNV1JIVld4b1lWSnVRbEZXYTFaTFlqRmtkRTVYUmxOV01GcFRWVVpSZDFCUlBUMD0="
 let public_token = hidden_token;
 for (let i = 0; i < 5; i++) {
@@ -44,7 +45,7 @@ function createProjectCard(repo, languages) {
     languageIcons.className = "language-icons";
 
     for (const language in languages) {
-        const languageIcon = getLanguageIcon(language);
+        const languageIcon = fetchLanguageIcon(language);
         if (languageIcon) {
             languageIcons.appendChild(languageIcon);
         }
@@ -67,7 +68,7 @@ function createTitleBar(repo) {
     link.target = "_blank";
 
     const img = document.createElement("img");
-    img.src = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg";
+    img.src = "/assets/svg/github.svg";
     img.alt = "GitHub logo";
 
     link.appendChild(img);
@@ -76,53 +77,31 @@ function createTitleBar(repo) {
     return titleBar;
 }
 
-function getLanguageIcon(language) {
-    const icon = document.createElement("img");
-
-    switch (language) {
-        case "C":
-            icon.src = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg";
-            icon.alt = "C";
-            icon.title = "C";
-            break;
-        case "HTML":
-            icon.src = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg";
-            icon.alt = "HTML";
-            icon.title = "HTML";
-            break;
-        case "Java":
-            icon.src = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg";
-            icon.alt = "Java";
-            icon.title = "Java";
-            break;
-        case "Javascript":
-            icon.src = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg";
-            icon.alt = "Javascript";
-            icon.title = "Javascript";
-            break;
-        case "OCaml":
-            icon.src = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ocaml/ocaml-original.svg";
-            icon.alt = "OCaml";
-            icon.title = "OCaml";
-        case "Python":
-            icon.src = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg";
-            icon.alt = "Python";
-            icon.title = "Python";
-            break;
-        case "Shell":
-            icon.src = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg";
-            icon.alt = "Shell";
-            icon.title = "Shell";
-            break;
-        case "TypeScript":
-            icon.src = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg";
-            icon.alt = "TypeScript";
-            icon.title = "TypeScript";
-            break;
+/**
+ * Fits the language name to get the correct icon.
+ */
+function fitLanguageName(language) {
+    switch (language.toLowerCase()) {
+        case "html": return "html5";
+        case "css": return "css3";
+        case "shell": return "bash";
+        case "c#": return "csharp";
+        case "c++": return "cplusplus";
+        case "visual basic 6.0": return "visualbasic";
+        case "vim script": return "vim";
         default:
-            return null;
+            return language.toLowerCase();
     }
+}
 
+function fetchLanguageIcon(language) {
+    const fittedLang = fitLanguageName(language);
+    const icon = document.createElement("img");
+    icon.src = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/" + fittedLang + "/" + fittedLang + "-original.svg";
+    icon.alt = language;
+    icon.title = language;
     icon.className = "language-icon";
+
+    icon.onerror = () => { icon.remove(); };
     return icon;
 }

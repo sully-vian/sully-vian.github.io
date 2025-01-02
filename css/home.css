@@ -14,8 +14,19 @@ section {
     justify-content: space-between;
 }
 
-#presentation-text {
+#about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 50%;
+    /* height: 90%; */
+    border-radius: 10px;
+    border: var(--border);
+    background-color: var(--nav-bg-color);
+    padding: 30px;
+}
+
+#about-text {
     font-size: large;
     text-align: justify;
     text-justify: inter-word;

@@ -13,7 +13,7 @@
 ## Page Carrière
 
 - [ ] 2 x (1 offre de stage + 1 CV adapté + 1 lettre de motivation adaptée)
-- [ ] 1 CV anglais
+- [X] 1 CV anglais
 
 ## Page Projets
 

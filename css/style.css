@@ -7,10 +7,10 @@
 
 :root {
     --bg-color: whitesmoke;
-    --nav-bg-color: lightblue;
-    --color: black;
+    --nav-bg-color: #043382;
+    --color: whitesmoke;
     --footer-border-color: rgb(200, 200, 200);
-    --border-color: black
+    --border: 2px solid black;
 }
 
 .dark-theme {
@@ -18,7 +18,7 @@
     --nav-bg-color: darkslateblue;
     --color: white;
     --footer-border-color: rgb(100, 100, 100);
-    --border-color: white
+    --border: 2px solid whitesmoke;
 }
 
 html,

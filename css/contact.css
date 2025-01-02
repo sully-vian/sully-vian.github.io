@@ -10,7 +10,7 @@ section>article {
     flex-direction: column;
     width: 45%;
     border-radius: 10px;
-    border: 2px solid var(--border-color);
+    border: var(--border);
     padding: 10px;
     background-color: var(--nav-bg-color);
 }
@@ -30,11 +30,14 @@ section>article>ul>li {
 
 section>article>ul>li span {
     font-style: italic;
+    font-weight: bold;
 }
 
 section>article>ul>li a {
     display: flex;
     align-items: center;
+    /* text-decoration: none; */
+    color: var(--text-color);
 }
 
 section>article>ul>li img {

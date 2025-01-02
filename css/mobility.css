@@ -10,7 +10,7 @@ section>article {
     flex-direction: column;
     width: 45%;
     border-radius: 10px;
-    border: 2px solid var(--border-color);
+    border: var(--border);
     padding: 10px;
     background-color: var(--nav-bg-color);
 }
