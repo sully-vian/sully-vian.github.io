@@ -3,9 +3,60 @@
 section {
     flex-direction: column;
     align-items: center;
+    gap: 30px;
 }
 
-.CVs {
+article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--nav-bg-color);
+    border: var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+article>h2 {
+    margin: 0;
+    padding: 20px;
+}
+
+#internships {
+    display: flex;
+    flex-direction: row;
+    border-top: var(--border);
+}
+
+.internship:first-child {
+    border-right: var(--border);
+}
+
+.internship {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+article a {
+    margin: 0;
+    padding: 20px;
+    text-decoration: none;
+    color: var(--color);
+}
+
+article a:hover {
+    background-color: var(--color);
+    color: var(--nav-bg-color);
+}
+
+article>p {
+    text-indent: 2em each-line;
+    text-align: justify;
+    margin: 0;
+    padding: 20px;
+}
+
+#CVs {
     display: flex;
     flex-direction: row;
     width: 50%;

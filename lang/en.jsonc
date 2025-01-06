@@ -1,20 +1,31 @@
 {
     // titles
     "title-home": "Home",
-    "title-professional": "Professional",
+    "title-professional": "PPP Career Project",
     "title-projects": "Projects",
     "title-mobility": "Mobility",
     "title-civic": "Civic Engagement",
     "title-contact": "Contact",
     // Navigation
     "nav-home": "Home",
-    "nav-professional": "Professional",
+    "nav-professional": "PPP",
     "nav-projects": "Projects",
     "nav-mobility": "Mobility",
     "nav-civic": "Civic Engagement",
     "nav-contact": "Contact",
     // Home
     "home-about": "Hi! I am Vianney Hervy, a Master's student in Computer Science (M1) at ENSEEIHT engineering school in Toulouse, France.\n\nWhat I love most about CS is that every project provides an opportunity to explore new technologies, adopt different ways of thinking, and continually improve my skills.\n\nI believe the best way to learn is by sharing knowledge and collaborating on projects.\n\nCurrently, my main interests lie in formal methods and software engineering.",
+    // Professional
+    "professional-ppp-docs": "PPP's documents (in French)",
+    "professional-ppp-pres": "Presentation (in French)",
+    "professional-ppp-offer1": "Internship offer at Forvia Forecia",
+    "professional-ppp-letter1": "Cover letter (in French)",
+    "professional-ppp-offer2": "TODO: find the offer",
+    "professional-ppp-letter2": "TODO: write the cover letter",
+    "professional-itw-title": "My Job Glasses interview with Philippe Krief",
+    "professional-itw-content": "Philippe is in charge of Research Projects at the Eclipse Foundation. He kindly agreed to answer my questions about his career path, his profession, and his advice for students.\n\nI learned about both the role and the relevance of open-source foundations, as well as the importance of communication and project management in the field of research.\n\nHis insights also helped me understand the differences between French and international perspectives regarding PhD students. This has given me a deeper reflection on my professional aspirations.",
+    "professional-lmes-title": "Web Developer at Les Maths en Scène",
+    "professional-lmes-content": "I completed a one-month internship in June 2024 at the association \"Les Maths en Scène\" (see Civic Engagement tab). My main task was to reorganize the structure and design of the association's website.\n\nSince the existing site was built with WordPress, I focused on applying design methods learned in my first year, rather than purely technical skills.\n\nThis experience taught me the importance of planning my work and communicating regularly with the client.",
     // Mobility
     "mobility-past-title": "Past Experiences",
     "mobility-future-title": "Future Projects",

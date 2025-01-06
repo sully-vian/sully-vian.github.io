@@ -1,20 +1,31 @@
 {
     // titres
     "title-home": "Accueil",
-    "title-professional": "Professionel",
+    "title-professional": "Projet Carrière PPP",
     "title-projects": "Projets",
     "title-mobility": "Mobilité",
     "title-civic": "Engagement Civique",
     "title-contact": "Contact",
     // Navigation
     "nav-home": "Accueil",
-    "nav-professional": "Professionel",
+    "nav-professional": "PPP",
     "nav-projects": "Projets",
     "nav-mobility": "Mobilité",
     "nav-civic": "Engagement Civique",
     "nav-contact": "Contact",
     // Accueil
     "home-about": "Bonjour ! Je m'appelle Vianney Hervy, et je suis étudiant en Master 1 d'Informatique à l'école d'ingénieurs ENSEEIHT à Toulouse, France.\n\nCe que j'aime le plus dans l'informatique, c'est que chaque projet est une chance d'adopter une nouvelle technologie, une nouvelle manière de penser, et d'améliorer mes compétences.\n\nJe suis convaincu que la meilleure façon d'apprendre est de partager ses connaissances et de réaliser des projets collaboratifs.\n\nActuellement, je m'intéresse particulièrement aux méthodes formelles et à l'ingénierie logicielle.",
+    // Professional
+    "professional-ppp-docs": "Documents du PPP",
+    "professional-ppp-pres": "Diapositives",
+    "professional-ppp-offer1": "Offre de stage chez Forvia Forecia",
+    "professional-ppp-letter1": "Lettre de motivation",
+    "professional-ppp-offer2": "TODO: trouver l'offre",
+    "professional-ppp-letter2": "TODO: écrire la lettre de motivation",
+    "professional-itw-title": "Entretien My Job Glasses avec Philippe Krief",
+    "professional-itw-content": "Philippe est responsable des projets de recherche chez Eclipse Foundation. Il a accepté de répondre à mes questions sur son parcours, son métier, et ses conseils pour les étudiants.\n\nJ'ai découvert à la fois le rôle et la pertinence des fondations open-source, et l'importance de la communication et de la gestion de projet dans le monde de la recherche.\n\nSon témoignage m'a aussi permis de discerner les différences entre les mentalités françaises et internationales vis-à-vis des doctorants. J'en tire une réflexion plus poussée sur mon projet professionnel.",
+    "professional-lmes-title": "Développeur web chez Les Maths en Scène",
+    "professional-lmes-content": "J'ai réalisé en Juin 2024 un stage d'une durée d'un mois dans l'association \"Les Maths en Scène\" (voir l'onglet Engagement Civique). Ma mission consistait principalement en la réorganisation structurelle et graphique du site de l'association.\n\nLe site existant étant en WordPress, j'ai surtout mis à profit les méthodes de conceptions apprises en première année en ignorant les compétences purement techniques.\n\nCe que je retiens de cette expérience est la nécessité absolue de planifier son travail ainsi que de communiquer très régulièrement avec le client.",
     // Mobilité
     "mobility-past-title": "Expériences Passées",
     "mobility-future-title": "Projets Futurs",

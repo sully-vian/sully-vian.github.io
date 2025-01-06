@@ -1,0 +1,6 @@
+{
+    "markdown.marp.themes": [
+        "./assets/pdf/diapo-ppp/ppp-theme.css",
+        "./assets/pdf/diapo-ppp/tipe-theme.css"
+    ]
+}
